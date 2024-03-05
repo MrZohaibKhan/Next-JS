@@ -1,7 +1,7 @@
 trigger: none
 
 pool: 
-  demads: ubuntu-latest
+  demands: ubuntu-latest
 
 variables:
   pnpm_config_cache: $(Pipeline.Workspace)/.pnpm-store
